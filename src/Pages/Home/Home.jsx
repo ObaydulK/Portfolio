@@ -1,11 +1,16 @@
 import Carousel from "../Carousel/Carousel";
+import BlogPost from "./Blog/BlogPost";
+import FavouriteClients from "./FavouriteClients/FavouriteClients";
 
- 
+
 const Home = () => {
     return (
         <div>
-            <Carousel/>
-            
+            <Carousel />
+
+
+            <FavouriteClients/>
+            <BlogPost />
         </div>
     );
 };

@@ -2,7 +2,7 @@
 
 const Carousel = () => {
 
- 
+
     return (
         <div>
             <div className="  dark:bg-violet-400 dark:text-gray-900">
@@ -21,6 +21,7 @@ const Carousel = () => {
                     </div>
                 </div>
             </div>
+
         </div >
 
 
