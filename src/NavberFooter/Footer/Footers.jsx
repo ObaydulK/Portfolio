@@ -2,6 +2,8 @@ import { Button, Datepicker, Footer } from "flowbite-react";
 import { BsFacebook, BsGithub, BsInstagram, BsMailbox, BsPhone, BsTwitter } from 'react-icons/bs';
 import SectionTitle from "../../Component/Title/SectionTitle";
 import { useFocus } from "../../CustomHook/CustomHook";
+import { Link } from "react-router-dom";
+import { Input } from "postcss";
 
 
 
@@ -18,9 +20,9 @@ const Footers = () => {
                     {/* Look it the subscribe part  */}
                     <div className="grid grid-flow-col justify-stretch space-x-4 ">
                         <from className=" grid grid-flow-col grid-cols-2 justify-center space-x-4">
-                            <input className="  rounded text-black text-end justify-end" type="text" placeholder="YonMail@gmail.com"  id="" ref={inputRef} />
+                            <input className="  rounded text-black text-end justify-end" type="text" placeholder="YonMail@gmail.com" id="" ref={inputRef} />
                             <Button className=" " onClick={focusInput} >Subscribe</Button>
-                        </from>
+                        </from> 
                     </div>
 
                     {/* Look this contact mail, phone and social media part so connect this  */}
@@ -58,6 +60,37 @@ const Footers = () => {
                             </div>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                     <Footer.Divider />
                     {/* intro this part , so part last footer for copyright part  */}
