@@ -1,5 +1,5 @@
 
-import SectionTitle from "../../../Component/Title/SectionTitle";
+import SectionTitle from "../../Component/Title/SectionTitle";
 
 
 const BlogPost = () => {

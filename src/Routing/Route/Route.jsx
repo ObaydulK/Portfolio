@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import ControlMain from "../ControlMain/ControlMain"; 
-import Home from "../../Pages/Home/Home";
-import About from "../../Pages/About/About";
+import Home from "../../Pages/Home/Home"; 
 import Portfolio from "../../Pages/Portfolio/Portfolio";
 import Service from "../../Pages/Services/Service";
 import Contact from "../../Pages/Contact/Contact";
 import Login from "../../LoginSign/Login/Login";
+import About from "../../Pages/About/About";
 
 export const router = createBrowserRouter([
   {
@@ -13,13 +13,14 @@ export const router = createBrowserRouter([
     element: <ControlMain />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <Home />
       },
       {
-        path:"/about",
+        path:"/myabout",
         element:<About/>
       },
+      
       {
         path:"/portfolio",
         element:<Portfolio/>

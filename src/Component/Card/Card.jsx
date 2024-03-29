@@ -10,27 +10,27 @@ const Card = () => {
 
                     <ul role="list" class="space-y-5 my-7 ">
                         <li class="flex items-center">
-                         <div className="text-white">>> </div>
+                         <div className="text-white"> >> </div>
                             <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">2 team members</span>
                         </li>
                         <li class="flex">
-                        <div className="text-white">>> </div>
+                        <div className="text-white"> >> </div>
                             <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">20GB Cloud storage</span>
                         </li>
                         <li class="flex">
-                        <div className="text-white">>> </div>
+                        <div className="text-white"> >> </div>
                             <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">Integration help</span>
                         </li>
                         <li class="flex">
-                        <div className="text-white">>> </div>
+                        <div className="text-white"> >> </div>
                             <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">Integration help</span>
                         </li>
                         <li class="flex">
-                        <div className="text-white">>> </div>
+                        <div className="text-white"> >> </div>
                             <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">Integration help</span>
                         </li>
                         <li class="flex">
-                        <div className="text-white">>> </div>
+                        <div className="text-white"> >> </div>
                             <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">Integration help</span>
                         </li>
 

@@ -6,8 +6,8 @@ const Navber = () => {
         <>
 
 
-            <li><Link rel="stylesheet" href="#" to="/" >Home</Link> </li>
-            <li><Link rel="stylesheet" href="#" to="/about" >About</Link> </li>
+            <li><Link rel="stylesheet" href="#" to="" >Home</Link> </li>
+            <li><Link rel="stylesheet" href="#" to="/myabout" >About</Link> </li> 
             <li><Link rel="stylesheet" href="#" to="/portfolio" >Portfolio</Link> </li>
             <li><Link rel="stylesheet" href="#" to="/Service" >Service</Link> </li>
             <li><Link rel="stylesheet" href="#" to="/Contact" >Contact</Link> </li>
